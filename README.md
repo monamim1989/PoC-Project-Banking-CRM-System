@@ -5,9 +5,9 @@ This is a Customer relationship management platform for TIAA Bank, which is an A
 
 ### SCOPE</br>
 The major scope of this project is to convert the legacy application from monolith to microservices architecture which are build utilizing Java 8 and Spring Boot 2.0 framework. The primary independent services are -  </br>
-Customer/User Service - Using this service, a new customer is able to register themselves with the banking system and create a profile. They are also able to edit their existing profiles.</br>
-Account Service - Using the account management service, the customer is able to create and access primarily two types of account - primary account and savings account. Once customer is signed in, they can see the balance amounts in both these accounts for their respective accounts.</br>
-Transaction Service - Using this service, customers can perform fund transfer between a customer’s primary and savings account, and also fund transfer from one customer’s account to other recipient’s account. The debit and credit data along with transaction invoice and description is updated and maintained using the transaction management microservice.</br>
+1. Customer/User Service - Using this service, a new customer is able to register themselves with the banking system and create a profile. They are also able to edit their existing profiles.</br>
+2. Account Service - Using the account management service, the customer is able to create and access primarily two types of account - primary account and savings account. Once customer is signed in, they can see the balance amounts in both these accounts for their respective accounts.</br>
+3. Transaction Service - Using this service, customers can perform fund transfer between a customer’s primary and savings account, and also fund transfer from one customer’s account to other recipient’s account. The debit and credit data along with transaction invoice and description is updated and maintained using the transaction management microservice.</br>
 In this way developing a single Customer Relationship Management application as a suite of small services each running in its own process and communicating with lightweight mechanisms helps in achieving modularity and scalability for microservices architecture. </br>
 
 ### RESPONSIBILITIES</br>
